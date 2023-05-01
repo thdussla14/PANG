@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+* { margin: 0px; padding: 0px; }
+
+/* 테마 색상 */
+/* Color Theme Swatches in Hex */
+.Responsive-design-on-devices-1-hex { color: #79DCF2; }
+.Responsive-design-on-devices-2-hex { color: #5697A6; }
+.Responsive-design-on-devices-3-hex { color: #F2F2F2; }
+.Responsive-design-on-devices-4-hex { color: #404040; }
+.Responsive-design-on-devices-5-hex { color: #0D0D0D; }
+
+
+/* 메인 박스 */
+.main_box{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* h3 설정 */
+.set_title{
+	padding-right: 20px;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+/* 멤버 정보 메인박스 */
+.member_info_main{
+	width: 100%;
+	display : flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.img_info_box img{
+	width: 100%;
+}
+.info_top{
+	display: flex;
+	align-items: flex-end;
+}
+.info_top h3{
+	margin-right: 20px;
+}
+
+.personal_info{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 0px;
+}
+
+
+
+/* 차량 배차정보 박스 */
+.dispatch_main_box{
+	width: 100%;
+	margin: 50px 0px;
+	display: flex ;
+	padding: 0px !important;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+.img_info_box{
+	width: 32%;
+}
+.carmanage_number{
+	width: 32%;
+	font-weight: bold;
+	font-size: 20px;
+	border-left: solid 1px #e8e8e8;
+	border-right: solid 1px #e8e8e8;
+	padding: 50px 0px;
+}
+.etc_info_box{
+	width: 32%;
+}
+
+
+
+
+
+/* 배송정보 박스 */
+.delivery_info_box{
+	width: 100%;
+}
+
+/* 배송지목록 전체박스 */
+.info_table_box{
+	width: 100%;
+	padding: 2%;
+	height: 565px;
+	overflow : scroll;
+}
+.info_table_box::-webkit-scrollbar{
+	width: 8px;
+}
+.info_table_box::-webkit-scrollbar-thumb{
+	height: 50px; /* 스크롤바의 길이 */
+    background: #79DCF2; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+.info_table_box::-webkit-scrollbar-track{
+	background: transparent;
+}
+
+.selectbtn{
+	width: 20%;
+	margin: 20px auto;
+}
+
+
+/* 배송지목록 테이블 */
+.d_info_table{
+	width: 100%;
+	text-align: center;
+}
+.d_info_table th {
+	text-align: center;
+}
+
+.d_info_table button {
+	background-color: transparent;
+	border: none;
+	width: 30px; height: 30px;
+}
+
+/* 경로설정 박스 */
+.set_starting_box{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.map_box{
+	width: 50%;
+}
+.select_table{
+	width: 100%;
+}
+
+
+/* 차고지 정보 체크박스 div */
+.distribution_center{
+	margin-bottom: 40px;
+}
+/* 선택한 배송지 전체박스 */
+.select_item_box{
+	width: 50%;
+	height: 500px;
+	padding: 0px 2%;
+}
+.select_item_box p{
+	font-size: 12px;
+	padding : 0px; margin: 0px;
+}
+.notice_info{
+	color : #ff4a4a;
+	font-size: 9px !important;
+	margin-bottom: 10px !important;
+}
+
+.select_table_box{
+	overflow : scroll;
+	height: 80%;
+}
+
+
+.select_table_box::-webkit-scrollbar{
+	width: 8px;
+}
+.select_table_box::-webkit-scrollbar-thumb{
+	height: 50px; /* 스크롤바의 길이 */
+    background: #79DCF2; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+.select_table_box::-webkit-scrollbar-track{
+	background: transparent;
+}
+
+/* 선택한 배송지 취소 버튼 */
+.delbtn {
+	padding: 0px; margin: 0px;
+	width: 20px; height: 10px;
+	border: none;
+	background-color: transparent;
+	font-size: 15px;
+	color: #ff3e3e;
+}
+
+/* 지도 */
+.map_box{
+	margin-top: 200px;
+}
+
+
+/* 결과 박스 */
+.result_box{
+	width: 100%;
+	padding: 5%;
+}
+.result_btn_box{
+	width: 20%;
+	margin: 100px auto;
+	text-align: center;
+}
+
+
+
+.footer{
+	margin-top: 500px;
+}
+
+.content_box{    
+	padding-top: 100px;
+    margin-left: 370px;
+    width: 1200px;
+    font-family: 'Happiness-Sans-Regular';
+}
+.content_box_header{    
+	border-bottom: 3px solid #404040;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.content_box_text{
+	padding-top: 40px;
+}
+.table1 th,.table1 td{
+	height: 40px;
+	line-height: 40px !important;
+    padding: 0px !important;
+    text-align: center;
+}
+
+.btn{
+	height: 30px;
+	line-height: 30px!important;
+	padding: 0px !important;
+	width: 100px;
+	font-size: 16px !important;
+	margin: 0px;
+	background-color: #5697A6;
+	color: white !important;
+}
+.notice{
+	font-size: 12px;
+}
+
+
+

@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* 웹폰트 */
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+   font-family: 'Happiness-Sans-Regular';
+   src:url("/pangpang/font/Happiness-Sans-Regular.woff");
+}
+
+/* 테마 색상 */
+/* Color Theme Swatches in Hex */
+.Responsive-design-on-devices-1-hex { color: #79DCF2; }
+.Responsive-design-on-devices-2-hex { color: #5697A6; }
+.Responsive-design-on-devices-3-hex { color: #F2F2F2; }
+.Responsive-design-on-devices-4-hex { color: #404040; }
+.Responsive-design-on-devices-5-hex { color: #0D0D0D; }
+
+* {margin: 0px; padding: 0px; list-style: none; }
+a{ color: white; text-decoration: none; }
+
+/* 헤더 탑 영역 */ /* 헤더 탑 영역 */ /* 헤더 탑 영역 */ /* 헤더 탑 영역 */ /* 헤더 탑 영역 */
+.header_top_box{
+	width: 100%;
+	height: 50px;
+	background-color:  #5697A6;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	z-index: 100;
+}
+.comp_name{
+	font-size: 20px;
+	color: white;
+	margin: 0px 10px 0px 50px;
+	font-family: 'Happiness-Sans-Bold';
+}
+.inc{
+	font-size: 10px;
+	color: white;
+	position: absolute;
+	top: 22px;
+	left: 170px;
+}
+
+.homeicon{
+	color: white;
+	margin-left: 70px;
+	font-size: 20px;
+}
+.logouticon{
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	right : 60px;
+	top: 12px;
+	
+}
+.usericon{
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	right: 100px;
+	top: 12px;
+}
+/* 헤더 탑 영역 */ /* 헤더 탑 영역 */ /* 헤더 탑 영역 */ /* 헤더 탑 영역 */ /* 헤더 탑 영역 */
+
+
+/* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */
+.side_bar{
+	width: 300px;
+	/* height: 100%; */
+	height: 1000px;
+	background-color : #5697A6;
+	position: relative;
+	left: 0px;
+	transition : 1s;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_menu_box{
+	padding-top: 150px;
+}
+
+.menu_title{
+	margin: 0px;
+	padding : 10px 0px 10px 70px;
+	font-size: 17px;
+	color: white;
+	font-family: 'Happiness-Sans-Bold';
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	text-align: left;
+}
+.menu_title:hover{
+	background-color: #518f9f;
+}
+
+.main_menu{ 
+	display: none;
+}
+
+.main_menu li {
+	color: white;
+	padding-left: 70px;
+	padding-top: 5px;
+	font-size: 15px;
+	font-family: 'Happiness-Sans-Regular';
+	background-color: #518f9f;
+}
+
+.sidebar_onoff{
+	position: absolute;
+	top: 15%; left: 300px;
+	border: none; 
+	border-top-right-radius : 5px;
+	border-bottom-right-radius : 5px;
+	color: white;
+	background-color: #5697A6;
+	font-size: 20px;
+	padding: 20px 5px;
+}
+
+/* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */ /* 사이드바 영역 */
+
+
+/***************************************************************/
+.connectlistbox{
+	width : 300px;
+	padding :15px;
+	border: 1px solid #eeeeee;
+	background-color: #F2F2F2;
+	border-bottom: 1px solid #404040;
+}
+.connectbox{
+	display: flex;	
+	align-items: center;
+	margin-bottom: 10px;
+}
+.hpimg{
+	width:30px;
+	height:30px;
+	background-color:white;
+	border: 1px solid #e8e8e8;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.loginbox{
+	display: flex;	
+	padding :15px;
+	background-color: #404040;		
+	color: white;
+}
+.chatbox{
+	width:300px; height:300px;
+	border: 1px solid black;
+	background-color:black;
+	z-index:500;
+}
+
+
+
+
+
+
+
+
+
+
+
+

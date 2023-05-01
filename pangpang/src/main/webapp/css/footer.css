@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* 웹폰트 */
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+   font-family: 'Happiness-Sans-Regular';
+   src:url("/pangpang/font/Happiness-Sans-Regular.woff");
+}
+
+/* 테마 색상 */
+/* Color Theme Swatches in Hex */
+.Responsive-design-on-devices-1-hex { color: #79DCF2; }
+.Responsive-design-on-devices-2-hex { color: #5697A6; }
+.Responsive-design-on-devices-3-hex { color: #F2F2F2; }
+.Responsive-design-on-devices-4-hex { color: #404040; }
+.Responsive-design-on-devices-5-hex { color: #0D0D0D; }
+
+* {margin: 0px; padding: 0px; list-style: none; }
+a{ color: black; text-decoration: none; }
+
+.footer_hd_box{
+	border-top: solid 1px #e8e8e8;
+	border-bottom: solid 1px #e8e8e8;
+	padding: 20px 0px;
+}
+.footer_hd{
+	width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer_hd div {
+	font-size: 12px;
+	color: #606060;
+}
+.footer_hd span{
+	font-size: 10px;
+	margin-left: 20px;
+	margin-left: 10px;
+	color: #b8b8b8;
+}
+
+.info_box{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo_text{
+	color: #7a7a7a;
+	font-size: 24px;
+	padding: 0px 20px;
+	width: 25%;
+	font-family: 'Happiness-Sans-Title';
+}
+.comp_info{
+	padding: 0px 20px;
+	color: #555555;
+	width: 25%;
+}
+.tel_info{
+	padding: 0px 20px;
+	color: #555555;
+	width: 25%;
+}
+.bank_info{
+	padding: 0px 20px;
+	color: #555555;
+	width: 25%;
+}
+
+.info_box p {
+	padding: 0px; margin: 0px;
+	font-size: 12px !important;
+}
+.info_box a {
+	padding-top: 10px !important;
+	font-size: 12px !important;
+	text-decoration: underline !important;
+}
+
+.footer_bot{
+	background-color: #333333;
+}
+
+.bot_content{
+	width: 1000px;
+	color: #888888;
+	display: flex;
+	margin: 0 auto;
+	padding: 30px 30px;
+}
+.bot_text_box{
+	width: 75%;	
+}
+
+.bot_text_box p {
+	font-size: 11px;
+}
+
+.link_img_box{
+	display: flex;
+	width: 25%;
+	justify-content: center;
+	align-items: center;
+}
+.link_img_box img {
+	height: 40%;
+}
+.logo1 , .logo2 {
+	margin-right: 10px; 
+}
+.bot_text_box p {
+   font-size: 11px;
+}

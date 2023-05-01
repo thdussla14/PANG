@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.weather{
+	margin-top: 100px;
+}
+
+.icon{
+	font-size: 100px;
+	color: #c0c0c0;
+	margin-right: 30px;
+}
+
+.current{
+	display: flex;
+	align-items: center;
+}
+
+.temp{
+	font-family: 'SUIT-Regular';
+	font-size: 40px;
+}
+.summary{
+	font-size: 15px;
+	color: #7c7c7c;
+	margin-left: 5px;
+}
+

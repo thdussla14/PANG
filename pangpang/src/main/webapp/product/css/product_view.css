@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+
+.bind{
+	display: flex;
+}
+
+/* 사이드바 출력 구역 */
+.list-group{
+	width: 200px;
+	font-family: 'Happiness-Sans-Title';
+	font-size: 16px;
+}
+.list-group-item.active{
+	color : rgb(16, 139, 165)!important;
+	background-color: white !important;
+	border: 1px solid rgb(16, 139, 165) !important;
+}
+/* 제품 목록 출력 구역*/
+.product_view_wrap{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	margin: 5%;
+}
+/* 제품 1개 */
+.item{
+	width: 100%;
+	margin: 2%;
+	text-align: center;
+	display: flex;
+}
+.product_img{
+	width: 300px;
+	height: 300px;
+}
+.product_info{
+	width: 100%;
+	margin: 1%;
+	text-align: left;
+	font-size: 16px;	
+}
+.pname{
+	font-family: 'Happiness-Sans-Bold';
+	font-size: 25px;
+	padding-bottom : 3%;
+	margin: 3% ;
+	border-bottom:1px solid #8e8e8e; 
+}
+.price{
+	font-weight: bold;
+	font-size: 18px;
+	margin: 3%;
+}
+.mini_logo{
+	width: 20px;
+	height: 20px;
+}
+.mini_mark{
+	color: brown;
+	font-size: 15px;
+}
+.date{
+	margin: 3%;
+	font-weight: bold;
+	color:rgb(16, 139, 165);
+}
+.amount{
+	margin: 0px 50px; 
+	border: none;
+	width: 80px;	
+}
+.cart_option{
+	width: 100%;
+	border: none;
+	background-color:F2F2F2;
+	padding: 2%;
+	margin: 2%;
+}
+.cartbtn{
+	width: 100px;
+	border:none;
+	color: white;
+	background-color:rgb(16, 139, 165);;
+	padding: 2%;	
+	font-weight: bo
+}
+.extra_info{
+	font-size:10px;
+	width: 100%;
+	margin: 2%;
+	padding: 2%;
+}
+.pangpang{
+	width: 100%;
+	border: 1px solid rgb(16, 139, 165);
+	background-color: white;
+	padding: 2%;
+	margin: 2%;
+}

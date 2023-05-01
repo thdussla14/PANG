@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/* 웹폰트 */
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+   font-family: 'Happiness-Sans-Regular';
+   src:url("/pangpang/font/Happiness-Sans-Regular.woff");
+}
+
+/* 테마 색상 */
+/* Color Theme Swatches in Hex */
+.Responsive-design-on-devices-1-hex { color: #79DCF2; }
+.Responsive-design-on-devices-2-hex { color: #5697A6; }
+.Responsive-design-on-devices-3-hex { color: #F2F2F2; }
+.Responsive-design-on-devices-4-hex { color: #404040; }
+.Responsive-design-on-devices-5-hex { color: #0D0D0D; }
+
+
+/* 공통 css  */
+* {margin: 0px; padding: 0px; list-style: none; font-family: 'Happiness-Sans-Regular'; }
+
+/* body */
+
+
+
+/* 메인로그인 전체박스 */
+.main_login_box{
+	width: 1000px; height: 700px;
+	margin: 110px auto;
+	display: flex;
+	box-shadow: 10px 10px 10px #b1b1b1;
+}
+
+/* 좌측 로고 자리*/
+.login_left_box{
+	width: 45%; height: 100%;
+	background-color: #15b8db;
+	display: flex;
+}
+.main_logo_box{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 150px;
+}
+
+
+/* 우측 로그인 인풋 자리 */
+.login_right_box{
+	width: 55%; height: 100%;
+	background-color: #fafafa;
+}
+.login_info_box{
+	width: 70%;
+	margin: 210px auto;
+}
+.login_info_box p {
+	margin: 10px 0px;
+	font-size: 13px;
+	font-weight:bold;
+	color: #595959; 
+}
+.id_box{
+	margin-bottom: 50px;
+}
+
+.login_input_box{
+	display: flex;
+	border-bottom: solid 1px #15b8db;
+	align-items: center;
+}
+.login_input_box span {
+	color : #15b8db;
+}
+
+.input_box{
+	border: none;
+	background-color: transparent;
+	padding : 10px 20px;
+	width: 100%;
+}
+.input_box:focus{
+	outline : none;
+}
+
+.sign_menu_box a , .sign_menu_box span{
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.sign_menu_box span{
+	padding: 0px 10px;
+}
+
+.login_btn_box{
+	margin-top: 50px;
+}
+.login_btn{
+	width: 100%; height: 40px;
+	background-color: #15b8db;
+	color: white;
+	font-size: 13px;
+	border: none;
+}
+
+.nologin{
+	margin-top: 30px;
+}
+.nologin a{
+	text-decoration: none;
+	color: #a5a5a5;
+	font-size: 13px;
+}
+
+/* 아이디찾기 모달 */
+/* 모달 배경 만들기 */
+.modal_wrap{
+	background-color: rgb(255 255 255 / 50%);
+	position: fixed;
+	top : 0; left: 0;
+	width: 100%; height: 100%;
+	display: flex;
+	justify-content: center; align-items: center;
+	display: none;
+}
+
+/* 모달 상자 만들기 */
+.modal_box{
+	background-color: white;
+	width: 500px;
+	height : 350px;
+	border: 5px solid #15b8db;
+	position: relative;
+	border-top: none;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.modal_title_box{
+	background-color: #15b8db;
+	width: 490px;
+	height: 40px;
+	display: flex;
+	font-family: 'Happiness-Sans-Regular';
+	font-weight: bold;
+	align-items: center;
+	border: 5px solid #15b8db;
+	font-size: 18px;
+	justify-content: space-between;
+	padding: 0 5px;
+	color: white;
+}
+.resultbox{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal_content{
+	width: 100%;
+    height: 50%;
+    /* background-color: #F2F2F2; */
+    /* margin-top: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_table{
+	width: 350px;
+	font-size: 15px;
+    color: #999999;
+}
+.modal_table_th{
+	width: 30%;
+	height: 40px;
+}
+.modal_table_td{
+	width: 70%;
+	height: 40px;
+}
+.input1{
+	width: 80%;
+	height: 30px !important;
+	padding: 5px 4px;
+	border: 1px solid #d1d1d1;
+	font-size: 13px;
+	font-family: 'Happiness-Sans-Regular';
+	font-weight: bold;
+}
+.modal_btns{
+	width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close_findid{
+	display: flex;
+    justify-content: center;
+    background-color: #15b8db;
+    border: 1px solid #15b8db;
+}
+
+.modal_btns{
+	width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #15b8db;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 비밀번호찾기 모달 */
+.box2{
+	height: 400px;
+}
+.con2{
+	height: 200px;
+}
+
+/* .resultbox{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

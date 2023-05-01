@@ -1,0 +1,119 @@
+@charset "UTF-8";
+.content_box{    
+	padding-top: 100px;
+    margin-left: 370px;
+    width: 1200px;
+    font-family: 'Happiness-Sans-Regular';
+}
+.content_box_header{    
+	border-bottom: 3px solid #404040;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.content_box_text{
+	padding-top: 40px;
+}
+
+/* 상단 메뉴 구역 */
+.topbox{
+	display: flex;
+	justify-content: space-between;
+	padding : 0px 10px;
+}
+.key{
+	border: none;
+}
+
+/* 품목 리스트 출력 구역 */
+.itemlistbox {
+	width: 100%;
+	margin: 1% auto;
+}
+.itemlist select{
+	border: none;
+}
+
+.btn{
+	height: 30px;
+	line-height: 30px!important;
+	padding: 0px !important;
+	width: 120px;
+	font-size: 16px !important;
+	margin: 0px;
+	background-color: #5697A6;
+	color: white !important;
+}
+.Page{
+	text-align: center;
+}
+/* 모달 배경 설정*/
+.modalregister, .modalupdate, .modaldelete {
+	position: fixed;				
+	top:0 ; left:0;
+	width:100% ; height: 100%;
+	background-color: rgba(173,173,173,0.5);	
+	display:flex;
+	justify-content: center;				
+	align-items: center;					
+	z-index: 1030;							
+	display: none;
+}
+/* 모달 기본 설정*/
+.modal_box{
+	text-align: center;align-items: center;
+	background-color: white;
+	width: 40%; 
+	padding: 3%; border-radius: 50px;
+}
+.modal_box_delete{
+	text-align: center;align-items: center;
+	background-color: white;
+	width: 45%; 
+	padding: 3%; border-radius: 50px;
+}
+.modal_title{
+	font-weight: bold;
+	font-size: 23px;
+	margin-bottom: 30px;
+}
+.modal_content{
+	margin: 1%;
+	font-size: 20px;
+}
+.title{
+	display:flex;
+	justify-content: space-between;
+	font-size: 17px;
+	margin: 2%;
+}
+.modal_content input  {
+	width: 70%;
+	height:40px;
+	padding-left: 10px;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	text-align:center;	
+	margin-right: 50px;
+}
+.product_content, .product_content_U{
+	width: 70%;
+	height:80px;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	margin-right: 50px;	
+	padding: 15px;
+}
+.modal_content select, option{
+	width: 70%;
+	height:40px;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	text-align:center;
+	margin-right: 50px;
+}
+input[type=file]::file-selector-button{
+	border: none;
+	background-color:#eeeeee;
+	margin: 8px;
+}

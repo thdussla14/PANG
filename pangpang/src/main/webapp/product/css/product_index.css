@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.title{
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'Happiness-Sans-Bold';
+	font-size: 30px;
+}
+/* 카테고리 목록 출력 구역 */
+.category_wrap{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	margin: 5%;
+}
+/* 카테고리 1개 */
+.category{
+	width: 20%;
+	margin: 2%;
+	text-align: center;
+}
+.category:hover {
+	opacity: 60%;
+}
+.category img{
+	width: 100%;
+	height: 200px;
+}
+.cname{
+	text-align: center;
+	margin-top: 2%;
+    font-family: 'Happiness-Sans-Title';
+	font-size: 20px;	
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* 웹폰트 */
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+   font-family: 'Happiness-Sans-Regular';
+   src:url("/pangpang/font/Happiness-Sans-Regular.woff");
+}
+
+/* 테마 색상 */
+/* Color Theme Swatches in Hex */
+.Responsive-design-on-devices-1-hex { color: #79DCF2; }
+.Responsive-design-on-devices-2-hex { color: #5697A6; }
+.Responsive-design-on-devices-3-hex { color: #F2F2F2; }
+.Responsive-design-on-devices-4-hex { color: #404040; }
+.Responsive-design-on-devices-5-hex { color: #0D0D0D; }
+
+
+/* 공통 css  */
+* {margin: 0px; padding: 0px;
+	list-style: none;}
+
+a{ color: black; text-decoration: none; }
+
+a:hover{color: black;}
+
+i{margin:0px 5px; }
+
+/* 사용자 / 관리자 선택박스  */
+.main{
+	display: flex;
+	justify-content: center;
+}
+.box{
+	width  : 500px;
+	height : 500px;
+	background-color : #eeeeee;
+	margin : 10px;
+	text-align: center;
+}
+
+/* header? */
+.wrap{
+	height : 110px;
+	border : 1px solid #eeeeee;	
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 20px;
+}
+.header{
+	display: flex;
+}
+

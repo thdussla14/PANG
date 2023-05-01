@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.content_box{    
+	padding-top: 100px;
+    margin-left: 370px;
+    width: 1200px;
+    font-family: 'Happiness-Sans-Regular';
+}
+.content_box_header{    
+	border-bottom: 3px solid #404040;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.btn{
+	height: 30px;
+	line-height: 30px!important;
+	padding: 0px !important;
+	width: 120px;
+	font-size: 16px !important;
+	margin: 0px;
+	background-color: #5697A6;
+	color: white !important;
+}
+
+.topbox select{
+	border: none;	
+}
+.ordermanagement_state{
+	border: none;	
+}
+
+.topbox{
+	padding: 1%;
+}
+.itembox{
+	display: flex;
+}
+.Page{
+	text-align: center;
+}
+/* 모달 기본 설정*/
+.modal_wrap_detail{
+	position: fixed;				
+	top:0 ; left:0;
+	width:100% ; height: 100%;
+	background-color: rgba(173,173,173,0.5);	
+	display:flex;
+	justify-content: center;				
+	align-items: center;					
+	z-index: 1030;							
+	display: none;
+}
+.modal_box{
+	text-align: center;align-items: center;
+	background-color: white;
+	width: 30%; 
+	padding: 1%; border-radius: 50px;
+}
+.modal_box_delete{
+	text-align: center;align-items: center;
+	background-color: white;
+	width: 45%; height: 30%;
+	padding: 3%; border-radius: 50px;
+}
+.modal_title{
+	font-weight: bold;
+	font-size: 23px;
+	margin-bottom: 30px;
+}
+.order_detail{
+	margin: 1%;
+	font-size: 15px;
+	text-align: left;
+}

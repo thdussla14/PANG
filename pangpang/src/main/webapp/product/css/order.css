@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+.title{
+	font-size:30px;
+	font-weight: bold;
+	padding: 1%;
+}
+.title2{
+	font-size:25px;
+	font-weight: bold;
+	padding: 1%;
+}
+.table{
+	font-size: 16px;
+}
+.add_info{
+	font-size: 12px;
+}
+.btn{
+	height: 30px;
+	line-height: 30px!important;
+	padding: 0px !important;
+	width: 120px;
+	font-size: 16px !important;
+	margin: 0px;
+	background-color: #5697A6 !important;
+	color: white !important;
+}
+/*품절상품 투명도*/
+.soldout{
+	opacity: 60%;
+}
+
+.order_img{
+	width : 100x;
+	height: 100px;
+}
+th{
+	background-color: #eeeeee;
+}
+.totalpricebox{
+	text-align: right;
+	font-weight: normal;
+}
+.totalprice{
+	text-align: right;
+	margin: 0px 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.address_select_input{
+	margin-left: 20px;
+}
+/* 모달 배경 설정*/
+.modal_wrap_address ,.modal_wrap_pay, .modal_wrap_account{
+	position: fixed;				
+	top:0 ; left:0;
+	width:100% ; height: 100%;
+	background-color: rgba(173,173,173,0.5);	
+	display:flex;
+	justify-content: center;				
+	align-items: center;					
+	z-index: 1030;							
+	display: none;
+}
+/* 모달 기본 설정*/
+.modal_box{
+	text-align: center;align-items: center;
+	background-color: white;
+	width: 500px; height: 600px;
+	padding: 15px;; border-radius: 50px;
+}
+.modal_box2{
+	text-align: center;align-items: center;
+	background-color: white;
+	width: 500px; 
+	padding: 15px;; border-radius: 50px;
+}
+.modal_title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.modal_content{
+	margin: 5%;
+	font-size: 15px;
+	/* overflow: auto; */
+}
+.modal_content input {
+	width: 70%;
+	height:30px;
+	margin:0px 0px 20px 20px;
+	padding-left: 10%;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;	
+}
+.address_search{
+	display: flex;
+}
+.address_detail{
+	display: flex;
+}
+.resultbox{
+	width : 400px;
+	height: 300px;
+	margin: 10px;
+	padding:10px;
+	border-top: 1px solid #eeeeee;
+}
+.address_detail , .address_select {
+	display: none;
+}
+.accountlist{
+	margin: 20px auto;
+}
