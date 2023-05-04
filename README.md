@@ -12,10 +12,6 @@
 주제 선정 이유 ; 많은 기업이 물류 시스템의 중요성을 깨닫고 이 사업에 많은 투자를 하고 있습니다.
 소비자들이 많이 선호하는 쿠팡의 물류관리 시스템을 일부나마 재현하여 보고자 하였습니다.
 
-
-# 주제선정이유
-![image](https://user-images.githubusercontent.com/121651809/227864580-af03dec0-61da-4660-95a5-e432af01e209.png)
-
 # 로고
 ![image](https://user-images.githubusercontent.com/121651809/227864972-6ed65718-2fdc-4919-9a72-eb921f7f467b.png)
 
