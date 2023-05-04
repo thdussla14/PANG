@@ -1,6 +1,4 @@
-# PANG
-
-# pangpang
+# PANGPANG
 
 # 주제
 쿠팡시스템 일부 구현
